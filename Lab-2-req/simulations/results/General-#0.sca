@@ -1,0 +1,27 @@
+version 3
+run General-0-20231010-21:46:06-27728
+attr configname General
+attr datetime 20231010-21:46:06
+attr datetimef 20231010-214606
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network lab_2_req.Network
+attr processid 27728
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 522
+config network lab_2_req.Network
+config seed-set 522
+
+par Network.player1 typename "\"lab_2_req.Player1\""
+par Network.player1 rand 2
+par Network.player2 typename "\"lab_2_req.Player2\""
+par Network.player2 rand "int(uniform(0, 11))"
+par Network typename "\"lab_2_req.Network\""
+

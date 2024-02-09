@@ -1,0 +1,47 @@
+version 3
+run General-0-20231202-01:45:27-29424
+attr configname General
+attr datetime 20231202-01:45:27
+attr datetimef 20231202-014527
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network lab5new1.Network
+attr processid 29424
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network lab5new1.Network
+
+par Network.sender typename "\"lab5new1.Sender\""
+par Network.receiver typename "\"lab5new1.Receiver\""
+par Network typename "\"lab5new1.Network\""
+
+run General-0-20231202-01:41:05-42904
+attr configname General
+attr datetime 20231202-01:41:05
+attr datetimef 20231202-014105
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network lab5new1.Network
+attr processid 42904
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network lab5new1.Network
+
+par Network.sender typename "\"lab5new1.Sender\""
+par Network.receiver typename "\"lab5new1.Receiver\""
+par Network typename "\"lab5new1.Network\""
+
